@@ -1,3 +1,8 @@
+//ELEMENT SELECTORS
+const lesson = document.querySelector(".lesson");
+//console.log(lesson);
+
+//LESSONS ARRAY
 //can this be modulized? try pulling it out later
 const learnBasicJS = [
   {
@@ -25,3 +30,17 @@ const learnBasicJS = [
       "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assigning-the-value-of-one-variable-to-another"
   }
 ];
+
+const randomIndex = Math.floor(Math.random() * learnBasicJS.length);
+
+console.log(randomIndex);
+
+const randomLesson = learnBasicJS[randomIndex].link;
+
+console.log(randomLesson);
+
+//ON CLICK, NEW LESSON LINK GENERATED
+lesson.innerHTML = randomLesson;
+
+//event listener
+//link should go in hyperlink, text show name
