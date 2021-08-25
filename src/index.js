@@ -1,9 +1,10 @@
 //ELEMENT SELECTORS
 const lesson = document.querySelector(".lesson");
-//console.log(lesson);
+const newLesson = document.querySelector(".new-lesson");
+//console.log(newLesson);
 
 //LESSONS ARRAY
-//can this be modulized? try pulling it out later
+//TODO: can this be modulized? try pulling it out later
 const learnBasicJS = [
   {
     id: "001",
@@ -31,16 +32,17 @@ const learnBasicJS = [
   }
 ];
 
-const randomIndex = Math.floor(Math.random() * learnBasicJS.length);
-
-console.log(randomIndex);
-
-const randomLesson = learnBasicJS[randomIndex].link;
-
-console.log(randomLesson);
-
 //ON CLICK, NEW LESSON LINK GENERATED
-lesson.innerHTML = randomLesson;
 
 //event listener
-//link should go in hyperlink, text show name
+newLesson.addEventListener("click", function () {
+  const randomIndex = Math.floor(Math.random() * learnBasicJS.length);
+
+  //console.log(randomIndex);
+
+  const randomLesson = learnBasicJS[randomIndex].link;
+  lesson.innerHTML = randomLesson;
+  //console.log(randomLesson);
+});
+
+//TODO: link should go in hyperlink, text show name
