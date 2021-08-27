@@ -7,6 +7,14 @@ main {
   text-align: center;
 }
 
+header {
+  padding: 20px;
+}
+
+.lesson {
+  padding: 40px;
+}
+
 .lesson-link {
   text-decoration: none;
   color: darkblue;
