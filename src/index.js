@@ -1,21 +1,20 @@
 import { learnBasicJS } from "./data.js";
+import { regex } from "./data.js";
 
 //ELEMENT SELECTORS
-const lessonLink = document.querySelector(".lesson-link");
-const newLesson = document.querySelector(".new-lesson");
-//console.log(lessonLink.href);
-
-//LESSONS ARRAY
+const basicLessonLink = document.querySelector(".basicJS .lesson-link");
+const basicNewLesson = document.querySelector(".new-lesson");
+//console.log(basicLessonLink.href);
 
 //ON CLICK, NEW LESSON LINK GENERATED
 
-newLesson.addEventListener("click", function () {
+basicNewLesson.addEventListener("click", function () {
   const randomIndex = Math.floor(Math.random() * learnBasicJS.length);
-  //console.log(randomIndex);
-  const randomLessonLink = learnBasicJS[randomIndex].link;
-  const randomLessonName = learnBasicJS[randomIndex].name;
-  lessonLink.href = randomLessonLink;
-  lessonLink.innerHTML = randomLessonName;
-  newLesson.innerHTML = "gimme another!";
+  //console.log(learnBasicJS[111].link);
+  const randomBasicLessonLink = learnBasicJS[randomIndex].link;
+  const randomBasicLessonName = learnBasicJS[randomIndex].name;
+  basicLessonLink.href = randomBasicLessonLink;
+  basicLessonLink.innerHTML = randomBasicLessonName;
+  basicNewLesson.innerHTML = "gimme another!";
   //console.log(randomLesson);
 });

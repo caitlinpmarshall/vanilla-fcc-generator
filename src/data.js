@@ -665,9 +665,6 @@ export const learnBasicJS = [
     name: "Use Recursion to Create a Range of Numbers",
     link:
       "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers"
-  },
-  {
-    id: ""
   }
 ];
 
