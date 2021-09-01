@@ -1,14 +1,13 @@
 import { learnBasicJS } from "./data.js";
 import { regex } from "./data.js";
 
-//LEARN BASIC JS
+///////////////LEARN BASIC JS
 //ELEMENT SELECTORS
 const basicLessonLink = document.querySelector(".basicJS .lesson-link");
-const basicNewLesson = document.querySelector(".new-lesson");
+const basicNewLesson = document.querySelector(".basicJS .new-lesson");
 //console.log(basicLessonLink.href);
 
 //ON CLICK, NEW LESSON LINK GENERATED
-
 basicNewLesson.addEventListener("click", function () {
   const randomIndex = Math.floor(Math.random() * learnBasicJS.length);
   //console.log(learnBasicJS[111].link);
@@ -20,14 +19,13 @@ basicNewLesson.addEventListener("click", function () {
   //console.log(randomLesson);
 });
 
-//REGEX
+////////////////////REGEX
 //ELEMENT SELECTORS
 const regexLessonLink = document.querySelector(".regex .lesson-link");
-const regexNewLesson = document.querySelector(".new-lesson");
+const regexNewLesson = document.querySelector(".regex .new-lesson");
 //console.log(regexLessonLink.href);
 
 //ON CLICK, NEW LESSON LINK GENERATED
-
 regexNewLesson.addEventListener("click", function () {
   const randomIndex = Math.floor(Math.random() * regex.length);
   //console.log(learnRegexJS[111].link);

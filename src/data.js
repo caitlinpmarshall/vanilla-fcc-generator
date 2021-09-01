@@ -1,4 +1,4 @@
-//TODO: add categories of lessons
+//TODO: consider an API situation? I couldn't find one yet...
 export const learnBasicJS = [
   {
     id: "0001",
