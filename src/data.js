@@ -670,3 +670,204 @@ export const learnBasicJS = [
     id: ""
   }
 ];
+
+export const regex = [
+  {
+    id: "0001",
+    name: "Using the Test Method",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/using-the-test-method"
+  },
+  {
+    id: "0002",
+    name: "Match Literal Strings",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-literal-strings"
+  },
+  {
+    id: "0003",
+    name: "Match a Literal String with Different Possibilities",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-a-literal-string-with-different-possibilities"
+  },
+  {
+    id: "0004",
+    name: "Ignore Case While Matching",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/ignore-case-while-matching"
+  },
+  {
+    id: "0005",
+    name: "Extract Matches",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/extract-matches"
+  },
+  {
+    id: "0006",
+    name: "Find More Than the First Match",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/find-more-than-the-first-match"
+  },
+  {
+    id: "0007",
+    name: "Match Anything with Wildcard Period",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-anything-with-wildcard-period"
+  },
+  {
+    id: "0008",
+    name: "Match Single Character with Multiple Possibilities",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-single-character-with-multiple-possibilities"
+  },
+  {
+    id: "0009",
+    name: "Match Letters of the Alphabet",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-letters-of-the-alphabet"
+  },
+  {
+    id: "0010",
+    name: "Match Numbers and Letters of the Alphabet",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-numbers-and-letters-of-the-alphabet"
+  },
+  {
+    id: "0011",
+    name: "Match Single Characters Not Specified",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-single-characters-not-specified"
+  },
+  {
+    id: "0012",
+    name: "Match Characters that Occur One or More Times",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-one-or-more-times"
+  },
+  {
+    id: "0013",
+    name: "Match Characters that Occur Zero or More Times",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-zero-or-more-times"
+  },
+  {
+    id: "0014",
+    name: "Find Characters with Lazy Matching",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/find-characters-with-lazy-matching"
+  },
+  {
+    id: "0015",
+    name: "Find One or More Criminals in a Hunt",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/find-one-or-more-criminals-in-a-hunt"
+  },
+  {
+    id: "0016",
+    name: "Match Beginning String Patterns",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-beginning-string-patterns"
+  },
+  {
+    id: "0017",
+    name: "Match Ending String Patterns",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-ending-string-patterns"
+  },
+  {
+    id: "0018",
+    name: "Match All Letters and Numbers",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-letters-and-numbers"
+  },
+  {
+    id: "0019",
+    name: "Match Everything But Letters and Numbers",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-everything-but-letters-and-numbers"
+  },
+  {
+    id: "0020",
+    name: "Match All Numbers",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-numbers"
+  },
+  {
+    id: "0021",
+    name: "Match All Non-Numbers",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-non-numbers"
+  },
+  {
+    id: "0022",
+    name: "Restrict Possible Usernames",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/restrict-possible-usernames"
+  },
+  {
+    id: "0023",
+    name: "Match Whitespace",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-whitespace"
+  },
+  {
+    id: "0024",
+    name: "Match Non-Whitespace Characters",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-non-whitespace-characters"
+  },
+  {
+    id: "0025",
+    name: "Specify Upper and Lower Number of Matches",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-upper-and-lower-number-of-matches"
+  },
+  {
+    id: "0026",
+    name: "Specify Only the Lower Number of Matches",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-only-the-lower-number-of-matches"
+  },
+  {
+    id: "0027",
+    name: "Specify Exact Number of Matches",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-exact-number-of-matches"
+  },
+  {
+    id: "0028",
+    name: "Check for All or None",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/check-for-all-or-none"
+  },
+  {
+    id: "0029",
+    name: "Positive and Negative Lookahead",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/positive-and-negative-lookahead"
+  },
+  {
+    id: "0030",
+    name: "Check For Mixed Grouping of Characters",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/check-for-mixed-grouping-of-characters"
+  },
+  {
+    id: "0031",
+    name: "Reuse Patterns Using Capture Groups",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/reuse-patterns-using-capture-groups"
+  },
+  {
+    id: "0032",
+    name: "Use Capture Groups to Search and Replace",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/use-capture-groups-to-search-and-replace"
+  },
+  {
+    id: "0033",
+    name: "Remove Whitespace from Start and End",
+    link:
+      "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/remove-whitespace-from-start-and-end"
+  }
+];
