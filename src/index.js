@@ -16,7 +16,6 @@ basicNewLesson.addEventListener("click", function () {
   basicLessonLink.href = randomBasicLessonLink;
   basicLessonLink.innerHTML = randomBasicLessonName;
   basicNewLesson.innerHTML = "gimme another!";
-  //console.log(randomLesson);
 });
 
 ////////////////////REGEX
@@ -34,5 +33,4 @@ regexNewLesson.addEventListener("click", function () {
   regexLessonLink.href = randomRegexLessonLink;
   regexLessonLink.innerHTML = randomRegexLessonName;
   regexNewLesson.innerHTML = "gimme another!";
-  //console.log(randomLesson);
 });
